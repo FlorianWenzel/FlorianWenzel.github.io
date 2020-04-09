@@ -1,0 +1,102 @@
+img[data-v-06e0f54e]:hover {
+  cursor: pointer;
+}
+img[data-v-06e0f54e] {
+  background-size: cover;
+  background-position: 50%;
+  background-color: #363636;
+  max-width: 100vw;
+  -webkit-filter: blur(15px);
+  filter: blur(15px);
+  transition: -webkit-filter 0.8s linear;
+  transition: filter 0.8s linear;
+  transition: filter 0.8s linear, -webkit-filter 0.8s linear;
+}
+img.loaded[data-v-06e0f54e] {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+.vue-gallery-image-wrapper[data-v-06e0f54e] {
+  align-self: center;
+  text-align: center;
+  overflow: hidden;
+}
+.vue-gallery-row[data-v-06e0f54e] {
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+.vue-gallery-image[data-v-06e0f54e] {
+  height: 100%;
+  width: 100%;
+}
+.vue-gallery-text[data-v-06e0f54e] {
+  transition: bottom 0.3s;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  max-height: calc(100% - 1rem);
+  overflow-y: scroll;
+  width: calc(100% - 1rem);
+  color: #fff;
+  background: rgba(54, 54, 54, 0.8);
+  padding: 0.5rem;
+  word-wrap: break-word;
+}
+img[data-v-790e3d85]:hover {
+  cursor: pointer;
+}
+img[data-v-790e3d85] {
+  background-size: cover;
+  background-position: 50%;
+  background-color: #363636;
+  max-width: 100vw;
+  -webkit-filter: blur(15px);
+  filter: blur(15px);
+  transition: -webkit-filter 0.8s linear;
+  transition: filter 0.8s linear;
+  transition: filter 0.8s linear, -webkit-filter 0.8s linear;
+}
+img.loaded[data-v-790e3d85] {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+.vue-gallery-image-wrapper[data-v-790e3d85] {
+  display: block;
+  align-self: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.vue-gallery-row[data-v-790e3d85] {
+  width: 100%;
+  align-content: center;
+}
+.vue-gallery-image[data-v-790e3d85] {
+  height: 100%;
+  width: 100%;
+}
+.vue-gallery-smooth-resize[data-v-790e3d85] {
+  transition: width 0.3s linear, height 0.3s linear;
+}
+.vue-gallery-text[data-v-790e3d85] {
+  transition: bottom 0.3s;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  max-height: calc(100% - 1rem);
+  overflow-y: scroll;
+  width: calc(100% - 1rem);
+  color: #fff;
+  background: rgba(54, 54, 54, 0.8);
+  padding: 0.5rem;
+  word-wrap: break-word;
+}
+.vue-gallery-vertical-wrapper[data-v-94c11466] {
+  display: flex;
+  width: 100%;
+}
